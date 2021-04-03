@@ -1,8 +1,12 @@
 {
-  "version": "0.0.0",
+  "version": "0.1.0",
   "npmClient": "yarn",
-  "publish": {
-    "registry": "https://npm.pkg.github.com"
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    }
   },
-  "packages": ["packages/*"]
+  "packages": [
+    "packages/*"
+  ]
 }

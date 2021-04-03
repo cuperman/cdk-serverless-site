@@ -1683,10 +1683,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@cuperman/cdk-serverless-site-frontend@^0.1.1":
-  version "0.1.1"
-  resolved "https://npm.pkg.github.com/download/@cuperman/cdk-serverless-site-frontend/0.1.1/41ad2b41022b11f7572d1d0299cc7ab001e6fbef241c305574b10d6f7a85ef07#ad1d1bd669664006b1e135d8a8881bfafed6a8cd"
-  integrity sha512-kyyLDunECunfVQpP8UDWbBUFCMiTwf/HM+8ASXRbIlJI2MqwINpIUk2UCqspa0zbgSILC+qjmgxKg/iCca+pgw==
+"@cuperman/cdk-serverless-site-frontend@^0.1.0":
+  version "0.1.5"
+  resolved "https://npm.pkg.github.com/download/@cuperman/cdk-serverless-site-frontend/0.1.5/546191b916324dc0186a5410faa38eca111e1efd15dc4fa11e6d56939ac0a4e3#16c21ba9d4de2d2c975c0a7118c4d014c44387e2"
+  integrity sha512-/J37ASeD4XdT62Hh3+jG16x3JR61kbD9IQzzWmGgLJQzMOc1z/F5zdKSBAQ7LjZFQXyNJO84wKKIL5S1La9Zng==
   dependencies:
     "@testing-library/jest-dom" "^5.11.4"
     "@testing-library/react" "^11.1.0"

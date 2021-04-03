@@ -1,12 +1,13 @@
 {
   "name": "@cuperman/cdk-serverless-site-infrastructure",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuperman/cdk-serverless-site.git"
+    "url": "git+https://github.com/cuperman/cdk-serverless-site.git",
+    "directory": "packages/infrastructure"
   },
   "bin": {
     "infrastructure": "build/bin/site.js"
@@ -35,7 +36,7 @@
     "@aws-cdk/aws-s3": "^1.96.0",
     "@aws-cdk/aws-s3-deployment": "^1.96.0",
     "@aws-cdk/core": "1.96.0",
-    "@cuperman/cdk-serverless-site-frontend": "^0.1.1",
+    "@cuperman/cdk-serverless-site-frontend": "^0.1.0",
     "source-map-support": "^0.5.16"
   },
   "license": "MIT"

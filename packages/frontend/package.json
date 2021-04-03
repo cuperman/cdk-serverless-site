@@ -1,12 +1,13 @@
 {
   "name": "@cuperman/cdk-serverless-site-frontend",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuperman/cdk-serverless-site.git"
+    "url": "git+https://github.com/cuperman/cdk-serverless-site.git",
+    "directory": "packages/frontend"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
