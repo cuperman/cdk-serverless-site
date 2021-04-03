@@ -1,6 +1,10 @@
 *.ts
 !*.d.ts
 
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # CDK asset staging directory
 .cdk.staging
 cdk.out
