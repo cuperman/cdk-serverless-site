@@ -10,13 +10,14 @@
     "directory": "packages/infrastructure"
   },
   "bin": {
-    "infrastructure": "build/bin/site.js"
+    "site": "build/bin/site.js"
   },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.96.0",
